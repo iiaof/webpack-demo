@@ -2,7 +2,7 @@ const path = require('path')
 const webpack = require('webpack')
 const webpackCommonConf = require('./webpack.common.js')
 const { smart } = require('webpack-merge')
-const { srcPath, distPath } = require('./paths')
+const { srcPath, distPath } = require('./path')
 
 module.exports = smart(webpackCommonConf, {
     mode: 'development',

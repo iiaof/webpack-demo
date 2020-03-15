@@ -7,6 +7,9 @@ import { sum } from './math'
 const sumRes = sum(10, 20)
 console.log('sumRes', sumRes)
 
+console.log('process : ',process);
+console.log('ENV : ',ENV);
+
 // // 增加，开启热更新之后的代码逻辑
 // if (module.hot) {
 //     module.hot.accept(['./math'], () => {

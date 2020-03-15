@@ -6,7 +6,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const TerserJSPlugin = require('terser-webpack-plugin')
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin')
 const webpackCommonConf = require('./webpack.common.js')
-const { srcPath, distPath } = require('./paths')
+const { srcPath, distPath } = require('./path')
 
 module.exports = smart(webpackCommonConf, {
     mode: 'production',
